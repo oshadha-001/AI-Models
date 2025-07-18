@@ -1,6 +1,6 @@
 import pandas as pd
 
-dataset = pd.read_csv(r'D:\ML day 5\Day1\iris.csv').values
+dataset = pd.read_csv(r'iris.csv').values
 
 print (dataset,dataset.shape)
 
