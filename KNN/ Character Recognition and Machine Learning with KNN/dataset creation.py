@@ -5,6 +5,7 @@ data_path='dataset'
 
 categories=os.listdir(data_path)
 print(categories)
+
 labels=[i for i in range(len(categories))]
 print(labels)
 category_dict={'a':0,'ae':1,'e':2,'u':3}
